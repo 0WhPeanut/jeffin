@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+</body>
+<style>
+
+    body{
+        display: flex;
+        align-items: center;
+        height: 250px;
+        background-color: aliceblue;
+
+    }
+
+     .semaforo {
+      background: #222;
+      padding: 15px;
+      margin: 20px auto;
+      width: 100px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .luz {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #444; 
+    }
+
+    .vermelho { background: red; }
+    .amarelo { background: rgb(255, 166, 0); }
+    .verde { background: rgb(43, 235, 5); }
+
+
+
+</style>
+
+  <div class="semaforo">
+    <div class="luz vermelho"></div>
+    <div class="luz amarelo"></div>
+    <div class="luz verde"></div>
+  </div>
+
+</html>

@@ -1,0 +1,15 @@
+
+
+ .linha{
+
+            height: 0.1;
+            width: 100%;
+            border: solid black 1px;
+
+        }
+
+.contato{
+
+    max-width: 30px;
+    max-height: 30px;
+}

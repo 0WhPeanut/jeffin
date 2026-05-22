@@ -1,0 +1,86 @@
+* {
+
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+
+
+}
+
+body{
+
+    background-color: aliceblue;
+
+
+
+
+}
+
+.logo{
+
+    margin: 20px 0;
+    width: 180px;
+
+}
+
+.sidebar {
+    
+    height: calc(100vh - 100px - 200px);
+    width: 300px;
+    background-color: rgba(127, 255, 212, 0.437);
+    
+    float: left;
+    
+}
+
+.content {
+    
+    min-height: calc(100vh - 100px - 200px);
+    background-color: rgba(0, 0, 0, 0.079);
+    width: 880px;
+
+    float: right;
+    padding: 20px;
+    
+}
+
+.footer {
+    
+    float: right;
+    height: 200px;
+    width: 100%;
+    background-color: crimson;
+    float: left;
+
+
+}
+
+.page{
+
+    width: 1200px;
+    margin: 0 auto;
+    background-color: yellow;
+
+    overflow: auto;
+
+
+}
+
+.foto {
+
+    width: 250;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+
+
+}
+
+.menu-wrapper{
+
+    width: 100%;
+    background-color: rgb(134, 134, 106);
+
+}
